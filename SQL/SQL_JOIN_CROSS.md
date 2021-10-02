@@ -38,6 +38,8 @@ VALUES
   (5,'Ottawa', 'Canada', 994837);
 ```
 
+### Cross ("_Cartesian_") Join
+
 ```SQL
 SELECT 
   * 
@@ -76,14 +78,13 @@ FROM
 |          5 |    Canada | North America |     (null) |       Ottawa |     (null) |       5 |       Ottawa |    Canada |     994837 |
 ```
 
-The same query can be rewritten with an explicit `CROSS JOIN` clause
+The same query can be rewritten with an explicit `CROSS JOIN` clause:  
 ```SQL
 SELECT 
   * 
 FROM 
   Country CROSS JOIN City;
 ```
-
 ```markdown
 | country_id |      name |     continent | government |      capital | population | city_id |         name |   country | population |
 |------------|-----------|---------------|------------|--------------|------------|---------|--------------|-----------|------------|
