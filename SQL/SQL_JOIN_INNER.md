@@ -1,4 +1,4 @@
-#### Country Table
+### Country Table
 ```markdown
 | country_id |      name |     continent | government |      capital | population |
 |------------|-----------|---------------|------------|--------------|------------|
@@ -7,6 +7,17 @@
 |          3 |    Russia |   Europe/Asia |     (null) |       Moscow |     (null) |
 |          4 |   Uruguay | South America |     (null) |   Montevideo |     (null) |
 |          5 |    Canada | North America |     (null) |       Ottawa |     (null) |
+```
+### Country Table
+
+```markdown
+| city_id |         name |   country | population |
+|---------|--------------|-----------|------------|
+|       1 | Buenos Aires | Argentina |   15594428 |
+|       2 |  Mexico City |    Mexico |    8855000 |
+|       3 |       Moscow |    Russia |   11920000 |
+|       4 |   Montevideo |   Uruguay |    1381000 |
+|       5 |       Ottawa |    Canada |     994837 |
 ```
 
 Show the population of each country's capital, as well as the continent that the country is in.  
