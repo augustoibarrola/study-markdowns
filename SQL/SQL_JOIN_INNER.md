@@ -8,7 +8,7 @@
 |          4 |   Uruguay | South America |     (null) |   Montevideo |     (null) |
 |          5 |    Canada | North America |     (null) |       Ottawa |     (null) |
 ```
-### Country Table
+### City Table
 
 ```markdown
 | city_id |         name |   country | population |
